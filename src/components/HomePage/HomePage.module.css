@@ -1,0 +1,148 @@
+.full_container {
+  width: 100%;
+  float: left;
+}
+.Left_container {
+  margin: 40px 0 0 70px;
+}
+.profile_pic {
+  width: 50%;
+  border-radius: 100%;
+  margin: 40px 0;
+}
+.left_background {
+  margin-top: 70px;
+  height: 100%;
+  width: 50%;
+  float: left;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.Right_backgound {
+  width: 50%;
+  float: left;
+  min-height: 100vh;
+  background-image: url("./backGroumd.jpg");
+  /* background-position: center; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  perspective: 800px;
+  border-collapse: collapse;
+  transform-style: preserve-3d;
+}
+.ContactMe_conatiner {
+  width: 100%;
+  float: left;
+  text-align: center;
+  position: absolute;
+  bottom: 100px;
+}
+.developers_name {
+  color: #fff;
+  font-family: "ITC Serif Gothic", Lato;
+  font-size: 25px;
+  letter-spacing: 0.4em;
+  text-align: center;
+  text-transform: uppercase;
+  animation: move-byline 10s linear infinite;
+}
+.developers_name span {
+  animation: spin-letters 10s linear infinite;
+}
+.Right_container {
+  text-align: right;
+  margin: 30px 30px 0 0;
+  width: 100%;
+  float: left;
+}
+.h4_tag {
+  font-size: 25px;
+  font-weight: 100;
+  margin: 0;
+  text-align: left;
+  color: #393a3a;
+  font-family: "Shadows Into Light";
+}
+.h1_tag {
+  font-size: 24px;
+  margin: 5px 0;
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+}
+.my_description_container {
+  width: 90%;
+  float: left;
+  margin: 10px 0 10px 0;
+}
+.my_description {
+  font-size: 16px;
+  text-align: left;
+  font-weight: 300;
+  line-height: 1.625;
+  color: #393a3a;
+  font-family: "Poppins", sans-serif;
+}
+.skill_set_conatiner {
+  text-align: left;
+}
+.skill_set {
+  background-color: bisque;
+  margin: 0 6px;
+  padding: 1px 12px;
+  font-size: 15px;
+  font-weight: 300;
+}
+.AboutMe {
+  text-align: left;
+  margin: 30px 0 0 0;
+}
+.AboutMeLink {
+  font-size: 15px;
+  color: #39364f;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-weight: 900;
+}
+.AboutMeLink:hover,
+.AboutMeLink:active,
+.AboutMeLink:focus {
+  text-decoration: none;
+  cursor: pointer;
+  color: #9999ff;
+}
+/* .developers_name {
+    font-size: 25px;
+    font-weight: 800;
+    text-align: left;
+  } */
+.Name_container {
+  float: left;
+  width: 100%;
+  margin: 0 0 80px 0;
+}
+.SideLink {
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-weight: 900;
+}
+.SideLink:hover,
+.contactMe:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: bisque;
+}
+
+.contactMe {
+  margin: 8px;
+  font-size: 20px;
+  font-weight: 900;
+  color: #fff;
+}
+.IMGstY {
+  width: 100px;
+}

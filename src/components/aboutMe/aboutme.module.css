@@ -1,0 +1,103 @@
+.full_conatiner {
+  width: 100%;
+  float: left;
+  background-image: url("./Bg.jpg");
+}
+.circle_icon{color: #7f0000;position: absolute;left: 52px;}
+.circle2_icon{color: #7f0000;position: absolute;left: 72px;}
+.left_container {
+  width: 50%;
+  float: left;
+  min-height: 100vh;
+}
+.my_description {
+  font-size: 18px;
+  text-align: left;
+  font-weight: 300;
+  line-height: 25px;
+  color: #7f7fff;
+}
+.right_container {
+  width: 50%;
+  float: right;
+}
+.text_container {
+  text-align: left;
+  margin: 40px 0 0 70px;
+}
+.h3_tag {
+  font-size: 28px;
+  color: #ffff;
+}
+.vertical_line {
+  border-left: 2px solid #6c685f;
+  height: 500px;
+  margin: 30px 0 0 105px;
+}
+.detail_card {
+  position: relative;
+  right: 10px;
+  top: 20px;
+  width: 90%;
+  padding: 10px 20px;
+  margin: 30px 0;
+  height: 30%;
+}
+.detail_card:hover {
+  -webkit-box-shadow: 0 4px 15px 0 rgba(40, 44, 53, 0.06),
+    0 2px 2px 0 rgba(40, 44, 53, 0.08);
+  box-shadow: 0 4px 15px 0 rgba(40, 44, 53, 0.06),
+    0 2px 2px 0 rgba(40, 44, 53, 0.08);
+  background-color: transparent;
+  border-radius: 2px;
+}
+.h4_tag {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.Pin_Tag {
+  position: absolute;
+  top: 96px;
+  left: 171.5px;
+  font-size: 9px;
+  color: #6c685f;
+  font-weight: bold;
+}
+.skill_set {
+  margin: 0 6px;
+  padding: 1px 12px;
+  font-size: 16px;
+  font-weight: 300;
+}
+.skill_set_conatiner {
+  margin: 0;
+  clear: both;
+  animation: fadeIn ease 0.5s;
+  -webkit-animation: fadeIn ease 0.5s;
+  -moz-animation: fadeIn ease 0.5s;
+  -o-animation: fadeIn ease 0.5s;
+  -ms-animation: fadeIn ease 0.5s;
+}
+.w2 {
+  width: 40.66%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+}
+.w7 {
+  width: 30.33%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+}
+.sideImage{
+  width: 80%;
+  height: 100%;
+  border-radius: 100%;
+}
+.pos_image{
+  position: relative;
+  right: 150px;
+}
