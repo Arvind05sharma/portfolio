@@ -1,15 +1,15 @@
 import React from "react";
 import "../../App.css";
 import Cards from "../Cards";
-import HomePage from "../HomePage/HomePage";
-import AboutMe from "../aboutMe/AboutMe";
+import Footer from "../DefaultPages/Footer";
+import LandingPage from "../HomePage/LandingPage";
 
 function Home() {
   return (
     <>
-      <HomePage/>
-      {/* <AboutMe/> */}
-      <Cards />
+      <LandingPage/>
+      <Cards/>
+      <Footer />
     </>
   );
 }

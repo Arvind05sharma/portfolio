@@ -24,7 +24,6 @@
   float: left;
   min-height: 100vh;
   background-image: url("./backGroumd.jpg");
-  /* background-position: center; */
   background-size: cover;
   background-repeat: no-repeat;
   perspective: 800px;
@@ -112,11 +111,6 @@
   cursor: pointer;
   color: #9999ff;
 }
-/* .developers_name {
-    font-size: 25px;
-    font-weight: 800;
-    text-align: left;
-  } */
 .Name_container {
   float: left;
   width: 100%;
@@ -134,12 +128,18 @@
 .contactMe:hover {
   text-decoration: none;
   cursor: pointer;
-  color: bisque;
+  color: #ff7550;
 }
-
+.copyright{
+  font-size: 11px;
+  color: #fff;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  float: right;
+}
 .contactMe {
   margin: 8px;
-  font-size: 20px;
   font-weight: 900;
   color: #fff;
 }
